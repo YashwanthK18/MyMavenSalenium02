@@ -16,7 +16,7 @@ public class App {
         options.addArguments("--window-size=1920,1080"); // optional but useful
 
         // Launch Chrome Browser
-        WebDriver driver = new ChromeDriver();
+        WebDriver driver = new ChromeDriver(options);
 
         // Open Login Page
         driver.get("https://practicetestautomation.com/practice-test-login/");
